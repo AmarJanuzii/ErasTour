@@ -1,0 +1,144 @@
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro?styles=82963");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element size */
+}
+
+body {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, fill 0.5s ease-in-out, transform 0.2s ease-in-out, border 0.5s ease-in-out;
+}
+
+/* Simplify the following selector */
+.Hero_imageButton__lFXXC {
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: flex 1s ease;
+}
+
+/* Combine the following two selectors */
+.Hero_imageButton__lFXXC.expanded {
+  width: 35%;
+  flex: 4;
+  background-attachment: fixed; /* Correct the property name */
+}
+
+.Hero_container__HKtqF {
+  display: flex;
+}
+
+/* Simplify the button styling */
+.Hero_imageButton__vIUeb {
+  background: transparent;
+  border: none;
+  appearance: none;
+  font-size: 1em;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+body[data-color="debut"] {
+  background-color: #0c1a0c;
+  color: #a9cbaa;
+}
+
+.navBar[data-color="debut"] {
+  background-color: #a9cbaa;
+  color: #0c1a0c;
+
+}
+
+
+body[data-color="fearless"] {
+  background-color: #1e151a;
+  color: #fddaa6;
+}
+
+.navBar[data-color="fearless"] {
+  background-color: #fddaa6;
+  color: #1e151a;
+}
+
+body[data-color="speaknow"] {
+  background-color: #000000;
+  color: #d6badc;
+}
+
+.navBar[data-color="speaknow"] {
+  background-color: #d6badc;
+  color: #b01cd1;
+}
+
+body[data-color="red"] {
+  background-color: #c7b2a2;
+  color: #72333c;
+}
+
+.navBar[data-color="red"] {
+  background-color: #72333c;
+  color: #c7b2a2;
+}
+
+body[data-color="1989"] {
+  background-color: #d1f3ff;
+  color: #034a62;
+}
+
+.navBar[data-color="1989"] {
+  background-color: #034a62;
+  color: #d1f3ff;
+}
+
+body[data-color="reputation"] {
+  background-color: #cacaca;
+  color: #2a2628;
+}
+
+.navBar[data-color="reputation"] {
+  background-color: #2a2628;
+  color: #cacaca;
+}
+body[data-color="lover"] {
+  background-color: #3d2d34;
+  color: #fbb3d1;
+}
+
+.navBar[data-color="lover"] {
+  background-color: #fbb3d1;
+  color: #3d2d34;
+}
+body[data-color="folklore"] {
+  background-color: #000000;
+  color: #d5d5d5;
+}
+
+.navBar[data-color="folklore"] {
+  background-color: #d5d5d5;
+  color: #000000;
+}
+body[data-color="evermore"] {
+  background-color: #2e2327;
+  color: #e0c9af;
+}
+
+.navBar[data-color="evermore"] {
+  background-color: #e0c9af;
+  color: #2e2327;
+}
+
+body[data-color="midnights"] {
+  background-color: #1f2e43;
+  color: #e0edfd;
+}
+
+.navBar[data-color="midnights"] {
+  background-color: #e0edfd;
+  color: #1f2e43;
+}
+
+
